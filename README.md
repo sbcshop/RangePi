@@ -5,11 +5,12 @@
 ## Range-Pi is a low cost portable “Plug and Play LoRaTM Dongle” based on Raspberry Pi RP2040 and  LoRaTM Modules, comes with an onboard 1.14" LCD that covers 433/868/915 MHz frequency band to enable data transmission up to 5 KM.
 
 ## Features
-  * On board two push button
+  * Two push button
     * Button A (Connect to GP13)
     * Button B (Connect to GP14)  
-  * On board two GP Pins
+  * Two GP Pins
     * GP4
     * GP5
+  * UART Interface Direct to LORA Module
 
 
