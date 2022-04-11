@@ -6,5 +6,10 @@
 
 ## Features
   * On board two push button
-    * Button A
-    * Button B 
+    * Button A (Connect to GP13)
+    * Button B (Connect to GP14)  
+  * On board two GP Pins
+    * GP4
+    * GP5
+
+
