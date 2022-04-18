@@ -24,11 +24,9 @@
   * **rangepi_transmitter.py** - Run this file if you make RangePi as transmitter 
     <img src = "https://github.com/sbcshop/RangePi/blob/main/images/img5.JPG" />
   
-  * **rangepi_transmitter_button.py** - Run this file if you make RangePi as transmitter and send message by using buttons
-    <img src = "https://github.com/sbcshop/RangePi/blob/main/images/img4.JPG" />
-    
-  * **user_input_transmitter.py** - Run this file if you make RangePi as transmitter
+  * **user_input_transmitter.py** - Run this file if you make RangePi as transmitter or you can transmit from XCTU, Tera Term etc. window application   
     <img src = "https://github.com/sbcshop/RangePi/blob/main/images/img3.JPG" />
+
 
 
   
