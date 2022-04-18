@@ -18,6 +18,7 @@
 
 * Receiver
   * **rangepi_receiver.py** - Run this file if you make RangePi as receiver ( in all case receiver is same ) 
+    <img src = "https://github.com/sbcshop/RangePi/blob/main/images/img6.JPG" />
  
 * Transmitter  
   * **rangepi_transmitter.py** - Run this file if you make RangePi as transmitter 
