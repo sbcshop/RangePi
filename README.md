@@ -6,11 +6,11 @@
 
 ## Features
   * Two push button
-    * Button A (Connect to GP13)
-    * Button B (Connect to GP14)  
+    * **Button A** (Connect to GP13)
+    * **Button B** (Connect to GP14)  
   * Two GP Pins
-    * GP4
-    * GP5
+    * **GP4**
+    * **GP5**
   * UART Interface Direct to LORA Module
 
 ## code
