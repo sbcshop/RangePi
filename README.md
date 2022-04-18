@@ -8,7 +8,7 @@
   * Two push button
     * **Button A** (Connect to GP13)
     * **Button B** (Connect to GP14)  
-  * Two GP Pins
+  * Two GP Pins ( for input/output devices )
     * **GP4**
     * **GP5**
   * UART Interface Direct to LORA Module
