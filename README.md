@@ -17,12 +17,12 @@
 * First you need to install firmware of 1.14 lcd screen to RangePi, for this press boot button then plug to laptop/desktop after that release the button, you see new        storage device. then drag and drop **firmware.uf2** file to RangePi
 
 * Receiver
-  *  rangepi_receiver.py - Run this file if you make RangePi as receiver 
+  * **rangepi_receiver.py** - Run this file if you make RangePi as receiver ( in all case receiver is same ) 
  
 * Transmitter  
   * **rangepi_transmitter.py** - Run this file if you make RangePi as transmitter 
   * **rangepi_transmitter_button.py** - Run this file if you make RangePi as transmitter and send message by using buttons
-  * **user_input_transmitter.py** - Run this file if you make RangePi as transmitte
+  * **user_input_transmitter.py** - Run this file if you make RangePi as transmitter
 
 
   
