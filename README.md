@@ -20,8 +20,9 @@
   *  rangepi_receiver.py - Run this file if you make RangePi as receiver 
  
 * Transmitter  
-  * rangepi_transmitter.py - Run this file if you make RangePi as transmitter 
-  * rangepi_transmitter_button.py - 
+  * **rangepi_transmitter.py** - Run this file if you make RangePi as transmitter 
+  * **rangepi_transmitter_button.py** - Run this file if you make RangePi as transmitter and send message by using buttons
+  * **user_input_transmitter.py** - Run this file if you make RangePi as transmitte
 
 
   
