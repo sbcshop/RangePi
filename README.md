@@ -25,7 +25,7 @@ Step 1 - Open thonny
 
 Step 2 - Select micropython and port in thonny for this go to run-> select interpreter
 <img src= "https://github.com/sbcshop/RangePi/blob/main/images/img9.jpg" />
-<img src= "https://github.com/sbcshop/RangePi/blob/main/images/img10.jpg" />
+<img src= "https://github.com/sbcshop/RangePi/blob/main/images/img10.JPG" />
 
 
 
