@@ -32,7 +32,7 @@ Step 3 - Save python file to RangePi
 <img src= "https://github.com/sbcshop/RangePi/blob/main/images/img14.png" />
 <img src= "https://github.com/sbcshop/RangePi/blob/main/images/img11.JPG" />
 
-Step 4 - Run and stop file (script)
+Step 4 - Run(execute) and stop file (script)
 <img src= "https://github.com/sbcshop/RangePi/blob/main/images/img8.JPG" />
 
 
