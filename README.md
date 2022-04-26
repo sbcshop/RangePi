@@ -23,6 +23,9 @@ https://thonny.org/
 step 1 - Open thonny 
 <img src= "https://github.com/sbcshop/RangePi/blob/main/images/img12.JPG" />
 
+Step 2 - Select micropython and port in thonny for this go to run-> select interpreter
+<img src= "https://github.com/sbcshop/RangePi/blob/main/images/img9.JPG" />
+
 ## code
 * First you need to install firmware of 1.14 lcd screen to RangePi, for this press boot button then plug to laptop/desktop after that release the button, you see new        storage device. then drag and drop **firmware.uf2** file to RangePi
 
