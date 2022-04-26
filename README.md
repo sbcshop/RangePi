@@ -28,8 +28,8 @@ Step 2 - Select micropython and port in thonny for this go to run-> select inter
 <img src= "https://github.com/sbcshop/RangePi/blob/main/images/img10.JPG" />
 
 Step 3 - Save python file to RangePi
-<img src= "https://github.com/sbcshop/RangePi/blob/main/images/img13.jpg" />
-<img src= "https://github.com/sbcshop/RangePi/blob/main/images/img14.jpg" />
+<img src= "https://github.com/sbcshop/RangePi/blob/main/images/img13.png" />
+<img src= "https://github.com/sbcshop/RangePi/blob/main/images/img14.jpng" />
 <img src= "https://github.com/sbcshop/RangePi/blob/main/images/img11.jpg" />
 
 
