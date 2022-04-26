@@ -14,7 +14,8 @@
   * UART Interface Direct to LORA Module
 
 ## Load Python File To RangePi
-Use thonny python IDE for programming,link of the software is given below :-
+Use thonny python IDE for programming,link of the software is given below :
+
 https://thonny.org/
 
 ## code
