@@ -32,6 +32,9 @@ Step 3 - Save python file to RangePi
 <img src= "https://github.com/sbcshop/RangePi/blob/main/images/img14.png" />
 <img src= "https://github.com/sbcshop/RangePi/blob/main/images/img11.JPG" />
 
+Step 4 - Run and stop file (script)
+<img src= "https://github.com/sbcshop/RangePi/blob/main/images/img8.JPG" />
+
 
 ## code
 * First you need to install firmware of 1.14 lcd screen to RangePi, for this press boot button then plug to laptop/desktop after that release the button, you see new        storage device. then drag and drop **firmware.uf2** file to RangePi
