@@ -50,7 +50,7 @@ Step 4 - Run(execute) and stop file (script)
   * **user_input_transmitter.py** - Run this file if you make RangePi as transmitter or you can transmit using window applications like XCTU, Tera Term etc.
     <img src = "https://github.com/sbcshop/RangePi/blob/main/images/img3.JPG" />
     
-  * **messenger.py** - Run this file if you want to talk through message like messenger
+  * **messenger.py** - Run this file if you want to talk through message like messenger(run the file in both rangepi)
     <img src = "https://github.com/sbcshop/RangePi/blob/main/images/img7.JPG" />
     
   
