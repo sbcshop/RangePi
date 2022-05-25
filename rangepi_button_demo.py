@@ -3,8 +3,8 @@ import time
 from machine import Pin
 
 
-button1 = Pin(13, Pin.IN, Pin.PULL_UP) # assign button to GP13 Pin
-button2 = Pin(14, Pin.IN, Pin.PULL_UP)
+button1 = Pin(2, Pin.IN, Pin.PULL_UP) # assign button to GP2Pin
+button2 = Pin(3, Pin.IN, Pin.PULL_UP)
 
         
 while 1:
