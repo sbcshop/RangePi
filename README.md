@@ -53,12 +53,12 @@ Step 4 - Run(execute) and stop file (script)
   * **messenger.py** - Run this file if you want to talk through message like messenger(run the file in both rangepi)
     <img src = "https://github.com/sbcshop/RangePi/blob/main/images/img7.JPG" />
     
-  * **rangepi_configuration.py** - Rename this file as main.py and save this file inside RangePi.go to below link to configure RangePi
+* **rangepi_configuration.py** - Rename this file as main.py and save this file inside RangePi.go to below link to configure RangePi
  
     https://www.youtube.com/watch?v=InQ0FwF4tLk&ab_channel=SBComponentsLtd
 
-
-
+* **RangePi Getting started video**
+   https://www.youtube.com/watch?v=ilqfkI1IL44&ab_channel=SBComponentsLtd
   
 
 
