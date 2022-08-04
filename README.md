@@ -13,7 +13,7 @@
     * **GP5**
   * UART Interface Direct to LORA Module
 
-## Load Python File To RangePi And Install Thonny Pyton IDE
+## Load Python File To RangePi And Install Thonny Python IDE
 Use thonny python IDE for programming,link of the software is given below :
 
 https://thonny.org/
