@@ -39,9 +39,9 @@ info()
 while True:
     data_Read = lora.readline()#read data comming from other pico lora expansion
     if data_Read is not None:
-        tft.text(font,n, 10,60,st7789.YELLOW)
+        tft.text(font,data_Read, 10,60,st7789.YELLOW)
         utime.sleep(0.2)#wait 200ms
-        tft.text(font,n, 10,60,st7789.BLACK)
+        tft.text(font,data_Read, 10,60,st7789.BLACK)
             
     utime.sleep(0.2)#wait for 200ms
 
