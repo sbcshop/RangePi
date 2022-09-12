@@ -26,8 +26,6 @@ the code above first would send the text "HELLO WORLD" over the air every 200 mi
 
 ## Sending Messages (With Buttons)
 
-## Sending a message (Without Buttons)
-
 Because of the way the buttons where setup the value of ```python button.value()``` would be ```0``` when  the button is pressed so using this fact we can check if a button has been pressed. 
 
 when using the LoRa chip to send a message you would simply write it to the chip through UART. 
