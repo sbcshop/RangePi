@@ -22,7 +22,7 @@
 * 2 Receiving - How to receive data on the the RangePi
 * Template - A template py file to help get you started with the RangePi
 
-## Mode Selection 
+## Mode Selection
 
 ### LoRa mode selection jumpers
 
