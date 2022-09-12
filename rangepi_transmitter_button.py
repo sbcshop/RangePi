@@ -44,20 +44,20 @@ info()
 
 while True:
     if button1.value() == 0:
-        n = "Hello\n"
-        lora.write(n)#send data
-        print("hello")
-        tft.text(font,n, 10,100,st7789.YELLOW)
+        message = "Hello"
+        lora.write(message)#send data
+
+        tft.text(font,message, 10,100,st7789.YELLOW)
         utime.sleep(0.2)#wait 200ms
-        tft.text(font,n, 10,100,st7789.BLACK)
+        tft.text(font,message, 10,100,st7789.BLACK)
         
     if button2.value() == 0:
-        n = "World\n"
-        lora.write(n)#send data
-        print("world")
-        tft.text(font,n, 10,100,st7789.YELLOW)
+        message = "World"
+        lora.write(message)#send data
+
+        tft.text(font,message, 10,100,st7789.YELLOW)
         utime.sleep(0.2)#wait 200ms
-        tft.text(font,n, 10,100,st7789.BLACK)
+        tft.text(font,message, 10,100,st7789.BLACK)
 
 
 

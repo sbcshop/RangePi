@@ -60,3 +60,13 @@ def show_info():
 # MAIN 
 
 show_info()
+
+test_msg = "HELLO WORLD"
+
+while True:
+    tft.text(font,test_msg, 10,60,st7789.BLACK)
+    lora.write(test_msg)
+    tft.text(font,test_msg, 10,60,st7789.YELLOW)
+    utime.sleep(0.2)#wait 200ms
+
+
