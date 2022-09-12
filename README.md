@@ -16,7 +16,20 @@
   * Can come in 433/868/915 MHz frequency band.
   * Enable Communication for upto 5km
 
-## Sample Projects Incuded
+## Demos Incuded
+
+* 1 Transmitting - How to transmit data on the RangePi with and without the use of buttons 
+* 2 Receiving - How to receive data on the the RangePi
+* Template - A template py file to help get you started with the RangePi
+
+## Mode Selection 
+
+### LoRa mode selection jumpers
+
+* short M0, short M1: transmission mode (In this project we use transmission mode)
+* short M0, open M1: configuration mode (You can configure the lora via this mode)
+* open M0, short M1: WOR mode
+* open M0, open M1: deep sleep mode
 
 ## Quick Start Guide
 
@@ -34,7 +47,7 @@ In order to make use of the 1.14 lcd you would need to upload the firmware with 
 * You will now see a new storage device on your machine. 
 * then drag and drop **firmware.uf2** file to RangePi
 
-### STEP 2 : Loading python files To RangePi
+### STEP 2 : Loading and Running python files To RangePi
 
 for this project we will be using the Thorny IDE. A link to the IDE:
 
