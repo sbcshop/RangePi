@@ -1,8 +1,9 @@
 # RangePi
+
+### Range-Pi is a low cost portable “Plug and Play LoRaTM Dongle” based on Raspberry Pi RP2040 and  LoRaTM Modules.
+
 <img src= "https://github.com/sbcshop/RangePi/blob/main/images/img1.jpg" />
 <img src= "https://github.com/sbcshop/RangePi/blob/main/images/img2.jpg" />
-
-## Range-Pi is a low cost portable “Plug and Play LoRaTM Dongle” based on Raspberry Pi RP2040 and  LoRaTM Modules, comes with an onboard 1.14" LCD that covers 433/868/915 MHz frequency band to enable data transmission up to 5 KM.
 
 ## Features
   * Two push button
@@ -12,61 +13,67 @@
     * **GP4**
     * **GP5**
   * UART Interface Direct to LORA Module
+  * Can come in 433/868/915 MHz frequency band.
+  * Enable Communication for upto 5km
 
-## Load Python File To RangePi And Install Thonny Python IDE
-Use thonny python IDE for programming,link of the software is given below :
+## Demos Incuded
+
+* 1 Transmitting - How to transmit data on the RangePi with and without the use of buttons 
+* 2 Receiving - How to receive data on the the RangePi
+* Template - A template py file to help get you started with the RangePi
+
+## Mode Selection
+
+### LoRa mode selection jumpers
+
+* short M0, short M1: transmission mode (In this project we use transmission mode)
+* short M0, open M1: configuration mode (You can configure the lora via this mode)
+* open M0, short M1: WOR mode
+* open M0, open M1: deep sleep mode
+
+## Quick Start Guide
+
+### Getting started with Range pi
+
+A demonstration of many of the following steps will be shown in our getting started guide. 
+
+   https://www.youtube.com/watch?v=ilqfkI1IL44&ab_channel=SBComponentsLtd
+
+### STEP 1 : RP2040 Firmware
+
+In order to make use of the 1.14 lcd you would need to upload the firmware with the complied modules on it
+
+* For this press boot button then plug to laptop/desktop after that release the button.
+* You will now see a new storage device on your machine. 
+* then drag and drop **firmware.uf2** file to RangePi
+
+### STEP 2 : Loading and Running python files To RangePi
+
+for this project we will be using the Thorny IDE. A link to the IDE:
 
 https://thonny.org/
 
-### Steps to load python file to RangePi
+#### Steps to load python file to RangePi
 
-Step 1 - Open thonny 
-<img src= "https://github.com/sbcshop/RangePi/blob/main/images/img12.JPG" />
+#### Step 1 - Open the target Python file in Thorny
 
-Step 2 - Select micropython and port in thonny for this go to run-> select interpreter
+![alt text](https://github.com/sbcshop/RangePi/blob/main/images/img12.JPG)
+
+#### Step 2 - Select micropython and port in thonny for this go to run-> select interpreter
+
 <img src= "https://github.com/sbcshop/RangePi/blob/main/images/img9.jpg" />
 <img src= "https://github.com/sbcshop/RangePi/blob/main/images/img10.JPG" />
 
-Step 3 - Save python file to RangePi
+#### Step 3 - Save python file to RangePi
+
 <img src= "https://github.com/sbcshop/RangePi/blob/main/images/img13.png" />
 <img src= "https://github.com/sbcshop/RangePi/blob/main/images/img14.png" />
 <img src= "https://github.com/sbcshop/RangePi/blob/main/images/img11.JPG" />
 
-Step 4 - Run(execute) and stop file (script)
+#### Step 4 - Run(execute) and stop file (script)
+
 <img src= "https://github.com/sbcshop/RangePi/blob/main/images/img8.JPG" />
 
-## Uploading the ST7789 Python Firmware (we already update in github)
- * The firmware includes frozen python font files and pre-compiled objects with the st7789 C driver for a variety of devices.
- * The driver's library is provided as a single firmware.uf2 file, which is accessible here:
-    https://github.com/russhughes/st7789_mpy/tree/master/firmware/RP2
-    
- * Holding down the RangePi BOTSEL button while dragging this file into the mounted RP2 folder will allow you to load it.
-
-## code
-### First you need to install firmware of 1.14 lcd screen to RangePi, for this press boot button then plug to laptop/desktop after that release the button, you see new        storage device. then drag and drop **firmware.uf2** file to RangePi
-
-* Receiver
-  * **rangepi_receiver.py** - Run this file if you make RangePi as receiver ( in all case receiver is same ) 
-    <img src = "https://github.com/sbcshop/RangePi/blob/main/images/img6.JPG" />
- 
-* Transmitter  
-  * **rangepi_transmitter.py** - Run this file if you make RangePi as transmitter 
-    <img src = "https://github.com/sbcshop/RangePi/blob/main/images/img5.JPG" />
-  
-  * **user_input_transmitter.py** - Run this file if you make RangePi as transmitter or you can transmit using window applications like XCTU, Tera Term etc.
-    <img src = "https://github.com/sbcshop/RangePi/blob/main/images/img3.JPG" />
-    
-  * **messenger.py** - Run this file if you want to talk through message like messenger(run the file in both rangepi)
-    <img src = "https://github.com/sbcshop/RangePi/blob/main/images/img7.JPG" />
-    
-* **rangepi_configuration.py** - Rename this file as main.py and save this file inside RangePi.go to below link to configure RangePi
- 
-    https://www.youtube.com/watch?v=InQ0FwF4tLk&ab_channel=SBComponentsLtd
-
-
-* **RangePi Getting started video**
-
-   https://www.youtube.com/watch?v=ilqfkI1IL44&ab_channel=SBComponentsLtd
   
 
 
