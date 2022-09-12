@@ -57,23 +57,16 @@ def show_info():
     tft.text(font3, "TRANSMISSION", 5, 10, st7789.WHITE)
     tft.text(font3, "MODE", 80, 60, st7789.RED)
 
-def receiveMessage():
-    while True:
-        data_read = lora.readline()
-        if data_read is not None:
-            return data_read
-                
-        utime.sleep(0.2)#wait for 200ms
-
 # MAIN 
 
 show_info()
 
-while True:
-    msg = receiveMessage()
-    
-    tft.text(font, msg, 10, 60, st7789.YELLOW)
-    utime.sleep(0.2)#wait 200ms
-    tft.text(font, msg, 10, 60, st7789.BLACK)
+test_msg = "HELLO WORLD"
 
-            
+while True:
+    tft.text(font,test_msg, 10,60,st7789.BLACK)
+    lora.write(test_msg)
+    tft.text(font,test_msg, 10,60,st7789.YELLOW)
+    utime.sleep(0.2)#wait 200ms
+
+
