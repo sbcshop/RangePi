@@ -2,7 +2,7 @@
 <img src= "https://github.com/sbcshop/RangePi/blob/main/images/img1.jpg" />
 <img src= "https://github.com/sbcshop/RangePi/blob/main/images/img2.jpg" />
 
-## Range-Pi is a low cost portable “Plug and Play LoRaTM Dongle” based on Raspberry Pi RP2040 and  LoRaTM Modules, comes with an onboard 1.14" LCD that covers 433/868/915 MHz frequency band to enable data transmission up to 5 KM.
+Range-Pi is a low cost portable “Plug and Play LoRaTM Dongle” based on Raspberry Pi RP2040 and  LoRaTM Modules, comes with an onboard 1.14" LCD that covers 433/868/915 MHz frequency band to enable data transmission up to 5 KM.
 
 ## Features
   * Two push button
@@ -92,7 +92,8 @@ https://github.com/sbcshop/Lora-HAT-for-Raspberry-Pi
 https://github.com/sbcshop/PICO-LORA-EXPANSION
 
 
-### Note: Every time you choose the different transmit device the transmit code of that device should be run in it and reciever code will always same.
+### Note: Every time you choose the different transmit device the transmit code of that device should be run in it and reciever code will always same(or depending upon what you want to control or recieve).
+
  ## Lora GUI For Configuration (run with the help of GUI)
  For this, you need to use Lora onboard USB 
  <img src= "https://github.com/sbcshop/Lora-HAT-for-Raspberry-Pi/blob/main/images/img_18.jpg" />
